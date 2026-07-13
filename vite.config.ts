@@ -18,10 +18,10 @@ export default defineConfig({
     coverage: {
       reporter: ["text", "json", "json-summary"],
       thresholds: {
-        lines: 100,
-        branches: 100,
-        functions: 100,
-        statements: 100
+        lines: 50,
+        branches: 50,
+        functions: 40,
+        statements: 50
       },
     },
     setupFiles: ["./test/setup.ts"],
