@@ -125,14 +125,9 @@ When setting up CI for your project, it's common to provide additional informati
 
 Doing that is straightforward with GitHub Actions. You determine where and when a specific task should occur, and then search for an appropriate action in the [GitHub Marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=).
 
-### 3.1 - Find an action in the marketplace
+### 3.1 - Read Vitest test coverage documentation
 
-1. Search for an Action in the GitHub Marketplace:  `vitest coverage report`
-  ![Search Result for "Vitest Test Coverage" in the GitHub Marketplace](./images/marketplace-vitest-search-result.png)
-
-2. Click on the **Vitest Coverage Report** action.
-
-3. Read the provided documentation and incorporate the action into your workflow.
+1. Read the provided [documentation](https://github.com/marketplace/actions/vitest-coverage-report) and incorporate the action into your workflow. 
 
 ### 3.2 - Permissions in a workflow
 
